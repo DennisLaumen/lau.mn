@@ -1,0 +1,40 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ site.title }}</title>
+    <link href="{{ site.url }}/atom.xml" rel="self"/>
+    <link href="{{ site.url }}/"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}/</id>
+    <author>
+        <name>{{ site.author.name }}</name>
+    </author>
+
+    {% for post in site.posts -%}
+    {% if post.link -%}
+    <entry>
+        <title>{{ post.title }}</title>
+        <link href="{{ post.link }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>{{ site.url }}{{ post.id }}</id>
+        <content type="html">
+            {{ post.content | xml_escape }}
+
+            &lt;a  title=&quot;Permanent link to &#x2018;The design of iOS 7: simply confusing &amp;rarr;&#x2019;&quot;  href=&quot;/2013/06/12/the-design-of-ios-7-simply-confusing/&quot;&gt;∞&lt;/a&gt;
+        </content>
+    </entry> 
+    {% else %}
+    <entry>
+        <title>{{ post.title }}</title>
+        <link href="{{ site.url }}{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>{{ site.url }}{{ post.id }}</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endif %}
+    {% endfor %}
+
+</feed>
+

@@ -1,0 +1,33 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        /:year/:month/:day/:title/
+
+# Setup
+title:            Dennis Laumen
+tagline:          "We who cut mere stones must always be envisioning cathedrals"
+description:      "I'm Dennis Laumen: a Dutch programmer, all-round nerd, and love all things programming, tech, films & tv, games, coffee and Oxford commas."
+url:              http://lau.mn
+paginate:         5
+baseurl:          "/"
+
+author:
+  name:           "Dennis Laumen"
+  email:          "dennis@lau.mn"
+  twitter:        https://twitter.com/dennislaumen
+  github:         https://github.com/dennislaumen
+  linkedin:       https://linkedin.com/in/dennislaumen
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon
+
+linkpost:
+  symbol:         '&rarr;'
+  permalink:
+    symbol:       '&infin;'
+

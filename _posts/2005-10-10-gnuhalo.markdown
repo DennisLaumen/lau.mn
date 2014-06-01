@@ -1,0 +1,10 @@
+--- 
+layout: post
+title: GNU/Halo
+date: 2005-10-10 12:41:12 +02:00
+---
+I always like these kind of [articles](http://www.stuff.co.nz/stuff/0,2106,3437625a28,00.html).
+
+Apparently [Microsoft's ](http://www.encyclopediadramatica.com/index.php/Microsoft) new movie [Halo](http://www.imdb.com/title/tt0464037/) (a film adaptation of the blockbuster game [Halo](http://www.gamerankings.com/htmlpages2/291594.asp?q=halo) ) will be post-produced on Linux servers (Fedora Core servers to be more precise). The post-production is being done by [Peter Jackson](http://imdb.com/name/nm0001392/)'s company [Weta Digital](http://www.wetadigital.com/digital/), which did the special effects for the [Lord of the Rings](http://imdb.com/find?q=lord%20of%20the%20rings;s=all) trilogy as well as Peter Jackson's new film [King Kong](http://imdb.com/title/tt0360717/).
+
+Oh, the irony...

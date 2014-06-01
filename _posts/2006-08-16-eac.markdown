@@ -1,0 +1,8 @@
+--- 
+layout: post
+title: EAC
+date: 2006-08-16 13:04:59 +02:00
+---
+Although I [previously blogged](http://blog.dfile.nl/archives/112 "Pull that PCM slider down!") that I couldn't get EAC in Wine to detect my drives I finally got it to work (another reason not to boot into Windows!). I just followed the steps mentioned on the excellent [Ubuntu Forums](http://ubuntuforums.org/showthread.php?t=142784&highlight=eac+wine "EAC and Wine").
+
+I can't remember trying to wine EAC in different manner in the past but I must have made a mistake somewhere.

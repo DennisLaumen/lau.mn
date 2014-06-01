@@ -1,0 +1,13 @@
+--- 
+layout: post
+title: X-WRT
+date: 2006-11-28 19:41:16 +01:00
+---
+
+I've been using [OpenWRT](http://openwrt.org/ "OpenWRT") on my [Linksys WRT54G](http://www.linksys.com/servlet/Satellite?c=L_Product_C2&childpagename=US%2FLayout&cid=1149562300349&pagename=Linksys%2FCommon%2FVisitorWrapper "Linkys WRT54G") v2.2 for a while. Overall I'm pretty happy with the project. The only downside to it was the web interface. The OpenWRT web interface is pretty nice, it's simple and clean but it's really limited. It's not even possible to forward ports using the web interface.
+
+Today I found an alternative to the lackluster web interface OpenWRT offers: [X-WRT](http://xwrt.berlios.de/xwrt.asp/ "X-WRT")! It has a lot more features than the original interface which is a huge plus (I don't want to edit my iptables everytime I want to forward a port) although the X-WRT interface is kind of crowded.
+
+Installation is easy. Just SSH to your router and:
+
+``ipkg install http://ftp.berlios.de/pub/xwrt/webif_latest.ipk``

@@ -1,0 +1,20 @@
+---
+layout: linkpost
+title: "Lose/Lose"
+date: 2012-12-22 22:14
+comments: true
+link: http://stfj.net/art/2009/loselose/
+categories:
+- Video games
+- Art
+- Zach Gage
+- Lose/Lose
+- English posts
+- Link posts
+---
+
+I just stumbled upon this after reading [a profile of Zach Gage on Wired][zach-gage-wired]. I'm not touching this game for obvious reasons but it sounds like a fascinating experiment. 
+
+> Lose/Lose is a video-game with real life consequences. Each alien in the game is created based on a random file on the players computer. If the player kills the alien, the file it is based on is deleted. If the players ship is destroyed, the application itself is deleted.
+
+[zach-gage-wired]: http://www.wired.com/gamelife/2012/12/worlds-most-wired-zach-gage/

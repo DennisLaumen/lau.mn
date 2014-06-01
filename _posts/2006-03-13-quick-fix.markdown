@@ -1,0 +1,8 @@
+--- 
+layout: post
+title: Quick fix
+date: 2006-03-13 08:31:03 +01:00
+---
+[This](https://launchpad.net/distros/ubuntu/+source/shadow/+bug/34606) was the big news before I went to sleep yesterday.
+
+[And when I woke up this morning it was already fixed.](http://www.ubuntu.com/usn/usn-262-1)

@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: Quake 4
+date: 2006-08-09 15:52:38 +02:00
+---
+I've been playing Quake 4 for about a week now. I acquired it in Eindhoven for approximately 15 euros, which is really a bargain.
+
+It has a pretty cool single player which was developed by Raven Software which takes place immediately after the developments in Quake 2. The multiplayer is practically identical to the Quake 3 multiplayer. Which is not a bad thing in my book.
+
+Best thing about it though is the Linux support. Being able to play a quick game of Quake without rebooting to *the-other-OS* (patents pending) is a huge plus.
+
+Leave a comment if you want to frag one of these days (I am not good at it though :)).

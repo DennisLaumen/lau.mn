@@ -1,0 +1,8 @@
+--- 
+layout: post
+title: LINQ
+date: 2006-03-09 10:47:16 +01:00
+---
+My previous post linked (or LINQed ;)) to a blogpost by someone showing some of the new language features of C#.
+
+Some of these new features didn't really make sense to me until I stumbled upon [this movie](http://channel9.msdn.com/showpost.aspx?postid=114680) explaining C# 3.0's most important new feature: LINQ (by [Anders Hejlsberg](http://en.wikipedia.org/wiki/Anders_Hejlsberg) himself!).
