@@ -1,0 +1,15 @@
+box: wercker/ruby
+build:
+  steps:
+    - bundle-install
+    - script:
+        name: generate site
+        code: bundle exec jekyll build --trace
+deploy:
+  steps:
+    - s3sync:
+        key_id: $KEY
+        key_secret: $SECRET
+        bucket_url: $URL
+        source_dir: _site/
+
