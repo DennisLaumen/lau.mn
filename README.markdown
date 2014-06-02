@@ -1,3 +1,9 @@
+# dennislaumen.nl
+
+## Continuous Delivery
+
+[![wercker status](https://app.wercker.com/status/c6ff6c33ed75c6f33df6944accf27600/m "wercker status")](https://app.wercker.com/project/bykey/c6ff6c33ed75c6f33df6944accf27600)
+
 ## License
 
 Everything *except* the content in `_posts` and `public/images` is open sourced
