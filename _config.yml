@@ -3,14 +3,14 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        /:year/:month/:day/:title/
+permalink:        /blog/:year/:month/:day/:title/
 
 # Setup
 title:            Dennis Laumen
 tagline:          "We who cut mere stones must always be envisioning cathedrals"
 description:      "I'm Dennis Laumen: a Dutch programmer, all-round nerd, and love all things programming, tech, films & tv, games, coffee and Oxford commas."
 url:              http://lau.mn
-paginate:         5
+paginate:         3
 baseurl:          "/"
 
 author:
