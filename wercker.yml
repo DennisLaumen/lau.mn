@@ -12,5 +12,7 @@ deploy:
         key_secret: $SECRET
         bucket_url: $URL
         source_dir: _site/
-        opts: --cf-invalidate _site/ $URL
+    - script:
+        name: cf invalidation
+        code: s3cmd --cf-invalidate _site/ $URL
 
