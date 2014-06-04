@@ -31,3 +31,6 @@ linkpost:
   permalink:
     symbol:       '&infin;'
 
+assets:
+  css_compressor: yui
+  cache:          true
