@@ -7,12 +7,11 @@ build:
         code: bundle exec jekyll build --trace
 deploy:
   steps:
-    - s3sync:
+    - dennislaumen/s3sync:
         key_id: $KEY
         key_secret: $SECRET
         bucket_url: $URL
         source_dir: _site/
-    - script:
-        name: cf invalidation
-        code: s3cmd --cf-invalidate _site/ $URL
+        experimental: true
+        opts: --acl-public --cf-invalidate
 
