@@ -9,7 +9,7 @@ permalink:        /blog/:year/:month/:day/:title/
 title:            Dennis Laumen
 tagline:          "We who cut mere stones must always be envisioning cathedrals"
 description:      "I'm Dennis Laumen: a Dutch programmer, all-round nerd, and love all things programming, tech, films & tv, games, coffee and Oxford commas."
-url:              http://lau.mn
+url:              http://www.dennislaumen.nl
 paginate:         3
 baseurl:          "/"
 
