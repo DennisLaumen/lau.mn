@@ -34,3 +34,7 @@ linkpost:
 assets:
   css_compressor: sass
   cache:          true
+
+gems:
+  - jekyll-sitemap
+
